@@ -1,28 +1,44 @@
 {
-    "name": "node-backend",
-    "version": "1.0.0",
-    "description": "Hello Koa 2 example with async",
-    "main": "start.js",
-    "scripts": {
-        "start": "node start.js"
-    },
-    "keywords": [
-        "koa",
-        "async"
-    ],
-    "author": "Qcy",
-    "license": "Apache-2.0",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/qcyhust/node-backend.git"
-    },
-    "dependencies": {
-        "babel-core": "6.13.2",
-        "babel-polyfill": "6.13.0",
-        "babel-preset-es2015-node6": "0.3.0",
-        "babel-preset-stage-3": "6.5.0",
-        "koa": "2.0.0",
-        "koa-bodyparser": "3.2.0",
-        "koa-router": "7.0.0"
-    }
+  "name": "node-backend",
+  "version": "1.0.0",
+  "description": "Hello Koa 2 example with async",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "keywords": [
+    "koa",
+    "async"
+  ],
+  "author": "Qcy",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qcyhust/node-backend.git"
+  },
+  "dependencies": {
+    "babel-core": "6.13.2",
+    "babel-polyfill": "6.13.0",
+    "babel-preset-es2015-node6": "0.3.0",
+    "babel-preset-stage-3": "6.5.0",
+    "koa": "2.0.0",
+    "koa-bodyparser": "3.2.0",
+    "koa-cache-control": "^1.0.0",
+    "koa-conditional-get": "^1.0.3",
+    "koa-convert": "^1.2.0",
+    "koa-etag": "^2.1.1",
+    "koa-generic-session": "^1.11.3",
+    "koa-http-proxy": "0.0.1",
+    "koa-proxy": "^0.6.0",
+    "koa-redis": "^2.1.2",
+    "koa-router": "7.0.0",
+    "koa-session": "^3.3.1",
+    "koa-session2": "^1.0.8",
+    "koa2-cookie-session": "0.0.1",
+    "koa2-proxy": "^1.0.11",
+    "logger-color": "^1.0.3",
+    "mysql": "^2.11.1",
+    "react": "^15.3.2",
+    "sequelize": "^3.24.3"
+  }
 }
